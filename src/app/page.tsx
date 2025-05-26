@@ -1,5 +1,6 @@
 "use client";
-import React, { useState } from "react";
+import { useState } from "react";
+import Image from "next/image";
 
 export default function Home() {
   const [answeredYes, setAnsweredYes] = useState(false);
@@ -18,7 +19,13 @@ export default function Home() {
         <h1 style={{ fontSize: "3rem", color: "#fff", textShadow: "2px 2px #ff4e50" }}>
           I LOVEEE YOU BUBUUUUUUUUUUUUUUU 💖💍
         </h1>
-        <img src="https://media.giphy.com/media/3o6Zt481isNVuQI1l6/giphy.gif" alt="Love" style={{ width: 300, marginTop: 30, borderRadius: 20 }} />
+        <Image
+          src="https://media.giphy.com/media/3o6Zt481isNVuQI1l6/giphy.gif"
+          alt="Love"
+          width={300}
+          height={300}
+          style={{ marginTop: 30, borderRadius: 20 }}
+        />
       </div>
     );
   }
@@ -76,7 +83,7 @@ export default function Home() {
         </div>
         {showNoMessage && (
           <p style={{ color: "#ff4e50", marginTop: 20, fontWeight: "bold" }}>
-            Please click "Yes" Bubu! 🥺💖
+            Please click &quot;Yes&quot; Bubu! 🥺💖
           </p>
         )}
       </div>
