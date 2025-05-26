@@ -51,10 +51,10 @@ export default function Home() {
           </h1>
           <div style={{ width: "90vw", maxWidth: 350, marginTop: 30 }}>
             <Image
-              src="https://media.giphy.com/media/3o6Zt481isNVuQI1l6/giphy.gif"
-              alt="Love"
+              src="https://media.tenor.com/1n5vCk1vZ1wAAAAC/dudu-bubu.gif"
+              alt="Dudu Bubu"
               width={350}
-              height={350}
+              height={200}
               style={{ width: "100%", height: "auto", borderRadius: 20 }}
             />
           </div>
