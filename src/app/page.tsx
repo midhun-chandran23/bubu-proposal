@@ -50,13 +50,13 @@ export default function Home() {
             I LOVEEE YOU BUBUUUUUUUUUUUUUUU 💖💍
           </h1>
           <div style={{ width: "90vw", maxWidth: 350, marginTop: 30 }}>
-            <Image
-              src="https://media.tenor.com/1n5vCk1vZ1wAAAAC/dudu-bubu.gif"
-              alt="Dudu Bubu"
-              width={350}
-              height={200}
-              style={{ width: "100%", height: "auto", borderRadius: 20 }}
-            />
+           <Image
+  src="https://media1.tenor.com/m/eY-E_pCOsaMAAAAC/dudu-bubu.gif"
+  alt="Dudu Bubu"
+  width={350}
+  height={350}
+  style={{ width: "100%", maxWidth: 350, borderRadius: 20, marginTop: 30 }}
+/>
           </div>
         </>
       ) : (

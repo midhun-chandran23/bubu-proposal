@@ -1,9 +1,21 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   images: {
-    domains: ["media.giphy.com"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "media.tenor.com",
+      },
+      {
+        protocol: "https",
+        hostname: "media1.tenor.com",
+      },
+      {
+        protocol: "https",
+        hostname: "media.giphy.com",
+      },
+    ],
   },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
